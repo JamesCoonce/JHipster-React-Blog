@@ -6,6 +6,7 @@ import layout from './layout';
 import authentication from './authentication';
 import administration from './administration';
 import userManagement from './user-management';
+import post from '../entities/post/post.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export default combineReducers({
@@ -14,6 +15,7 @@ export default combineReducers({
   layout,
   administration,
   userManagement,
+  post,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });

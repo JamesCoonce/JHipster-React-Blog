@@ -1,0 +1,25 @@
+
+{
+    "reacthipApp": {
+        "post" : {
+            "home": {
+                "title": "Posts",
+                "createLabel": "Genera un nuovo Post",
+                "createOrEditLabel": "Genera o modifica un Post"
+            },
+            "created": "&Egrave; stato generato un nuovo Post con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Post identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Post con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Post {{ id }}?"
+            },
+            "detail": {
+                "title": "Post"
+            },
+            "title": "Title",
+            "description": "Description",
+            "published": "Published",
+            "datecreated": "Datecreated"
+        }
+    }
+}
